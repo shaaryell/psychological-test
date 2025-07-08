@@ -1,8 +1,8 @@
 # Psychological test
 
-### Rispondi **istintivamente** e **spontaneamente** con vero o falso.
+### Rispondi **istintivamente** e **spontaneamente** con vero o falso
 
-Nelle discussioni ...
+In una discussione ...
 
 1. Mi metto sovente a fantasticare  
 2. Difendo le mie idee con convinzione  

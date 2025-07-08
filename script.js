@@ -19,13 +19,12 @@ document.getElementById("testForm").addEventListener("submit", function (e) {
     <hr>
     <!-- Blog entry -->
     <div class="w3-card-4 w3-margin w3-white">
-        <div class="w3-container" style="display: flex; justify-content: space-between;">
-            <h4><b>FU: ${results.FU}</b></h4>
-            <h4><b>AS: ${results.AS}</b></h4>
-            <h4><b>MA: ${results.MA}</b></h4>
-            <h4><b>AG: ${results.AG}</b></h4>
+        <div class="w3-container w3-center">
+            <h4><b>Fuga / Passività: ${results.FU}</b></h4>
+            <h4><b>Assertività: ${results.AS}</b></h4>
+            <h4><b>Manipolazione: ${results.MA}</b></h4>
+            <h4><b>Aggressività: ${results.AG}</b></h4>
         </div>
     </div>
-
     `;
 });
