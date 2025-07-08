@@ -1,4 +1,4 @@
-# A psychological test
+# Psychological test
 
 ### Rispondi **istintivamente** e **spontaneamente** con vero o falso.
 
