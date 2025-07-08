@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A psychological test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3-style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Raleway", sans-serif
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+
+<body class="w3-light-grey">
+
+    <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width:1400px">
+
+        <!-- Header -->
+        <header class="w3-container w3-center w3-padding-32">
+            <h1><b>Un test psicologico</b></h1>
+            <h4>Rispondi <b>istintivamente</b> e <b>spontaneamente</b> con vero o falso. <span class="w3-tag">Nelle discussioni ...</span></h4>
+        </header>
+
+        <!-- Grid -->
+        <form class="w3-row" id="testForm">
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>1. Mi metto sovente a fantasticare</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q1" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q1" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>2. Difendo le mie idee con convinzione</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q2" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q2" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>3. Evito i conflitti poiché non conducono a niente</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q3" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q3" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>4. Riesco a fare impressione sul mio interlocutore</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q4" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q4" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>5. Colui che parla di più è avvantaggiato nel dibattito</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q5" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q5" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>6. Faccio volentieri dei paradossi</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q6" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q6" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>7. Mi confondo raramente</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q7" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q7" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>8. Spesso non oso parlare anche se ne ho vaglia</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q8" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q8" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>9. Posso difendere un'idea che disapprovo</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q9" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q9" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>10. Sono in grado di fare lə scemə per non pagare il dazio</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q10" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q10" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>11. So che vincerò se il mio interlocutore è preso alla sprovvista</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q11" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q11" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>12. Bisogna saper destabilizzare il proprio interlocutore</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q12" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q12" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>13. Non ho pregiudizi nei confronti dei miei interlocutori</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q13" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q13" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>14. Preferisco non esprimere le mie idee di fronte a certi interlocutori</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q14" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q14" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>15. Mi capita di perdere il filo del discorso</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q15" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q15" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>16. Gli argomenti definitivi fasciano l'altrə senza voce</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q16" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q16" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>17. So far parlare gli altri per costruirmi una rete personale di informazione</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q17" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q17" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>18. Sono attentə ai propositi altrui</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q18" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q18" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>19. Preferisco astenermi piuttosto che affrontare un conflitto</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q19" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q19" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>20. So imporre le mie idee</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q20" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q20" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>21. Posso difendere brillantemente un punto di vista che disapprovo</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q21" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q21" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>22. Posso manifestare con calma ti mio totale disaccordo</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q22" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q22" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>23. Spesso abbandono la discussione perché non so difendere le mie idee</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q23" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q23" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>24. Mi trovo a mio agio nelle discussioni</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q24" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q24" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>25. Sono capace di dire che non ho compreso un'idea</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q25" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q25" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>26. È utile talvolta essere in cattiva fede</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q26" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q26" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>27. In un dialogo esiste un vincente e un perdente</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q27" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q27" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>28. Mi sento meglio fuori dal dibattito che nel bel mezzo della mischia</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q28" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q28" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>29. So attirare l'attenzione e farmi ascoltare dagli altri</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q29" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q29" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>30. Preferisco tacere piuttosto che rischiare di dire una stupidaggine</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q30" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q30" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>31. Nessuno è del tutto insensibile all'adulazione</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q31" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q31" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>32. Non temo di imbarazzare il mio interlocutore</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q32" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q32" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>33. So che parlare per primə è un rischio inutile</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q33" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q33" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>34. Non ho paura di nessuno</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q34" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q34" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>35. Riconosco il diritto all'errore per me e per il mio interlocutore</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q35" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q35" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>36. Mi capita di non osare esprimere un'idea che mi sembra interessante</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q36" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q36" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>37. La contraddizione mi diverte</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q37" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q37" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>38. Difendo sinceramente le mie idee</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q38" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q38" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>39. Non è sempre il caso di dire tutto ciò che si pensa</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q39" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q39" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>40. Mi dispiace spesso di non osare dire tutto</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q40" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q40" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>41. Anche quando sono consultatə mi è faticoso esprimere con chiarezza la mia posizione</b>
+                    </h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q41" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q41" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>42. Dividere gli altri per comandare è un principio sempre efficace</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q42" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q42" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>43. Raramente prendo la parola spontaneamente</b></h4>
+                    <h5 class="question" data-result="FU">
+                        <label><input type="radio" name="q43" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q43" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>44. Bisogna saper anche andare in collera</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q44" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q44" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>45. Senza cercarlo, io non ho paura del conflitto</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q45" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q45" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>46. In una discussione voglio uscire vincente</b></h4>
+                    <h5 class="question" data-result="AG">
+                        <label><input type="radio" name="q46" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q46" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>47. So dissimulare le mie idee quando penso che non siano condivise</b></h4>
+                    <h5 class="question" data-result="MA">
+                        <label><input type="radio" name="q47" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q47" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Blog entry -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <div class="w3-container">
+                    <h4><b>48. Sono in grado di cambiare opinione senza sentirmi manipolatə</b></h4>
+                    <h5 class="question" data-result="AS">
+                        <label><input type="radio" name="q48" value="true" required> Vero </label> -
+                        <label><input type="radio" name="q48" value="false" required> Falso </label>
+                    </h5>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- END BLOG ENTRIES -->
+
+            <div class="w3-col w3-center">
+                <p><button type="submit" class="w3-button w3-padding-large w3-white w3-border"><b>Termina il test / Risultati</b></button>
+                </p>
+            </div>
+
+        </form>
+
+        <!-- Grid -->
+        <div class="w3-row results" id="results"></div>
+
+        <!-- END GRID -->
+    </div><br>
+
+    <!-- END w3-content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+        <h5>Made with <i class="material-icons" style="vertical-align: middle;">favorite</i> by shaaryell</h5>
+    </footer>
+
+</body>
+
+</html>
