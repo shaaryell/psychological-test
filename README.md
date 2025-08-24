@@ -11,7 +11,7 @@ In una discussione ...
 5. Colui che parla di più è avvantaggiato nel dibattito  
 6. Faccio volentieri dei paradossi  
 7. Mi confondo raramente  
-8. Spesso non oso parlare anche se ne ho vaglia  
+8. Spesso non oso parlare anche se ne ho voglia  
 9. Posso difendere un'idea che disapprovo  
 10. Sono in grado di fare lə scemə per non pagare il dazio  
 11. So che vincerò se il mio interlocutore è preso alla sprovvista  
@@ -19,13 +19,13 @@ In una discussione ...
 13. Non ho pregiudizi nei confronti dei miei interlocutori  
 14. Preferisco non esprimere le mie idee di fronte a certi interlocutori  
 15. Mi capita di perdere il filo del discorso  
-16. Gli argomenti definitivi fasciano l'altrə senza voce  
+16. Gli argomenti definitivi lasciano l'altrə senza voce  
 17. So far parlare gli altri per costruirmi una rete personale di informazione  
 18. Sono attentə ai propositi altrui  
 19. Preferisco astenermi piuttosto che affrontare un conflitto  
 20. So imporre le mie idee  
 21. Posso difendere brillantemente un punto di vista che disapprovo  
-22. Posso manifestare con calma ti mio totale disaccordo  
+22. Posso manifestare con calma il mio totale disaccordo  
 23. Spesso abbandono la discussione perché non so difendere le mie idee  
 24. Mi trovo a mio agio nelle discussioni  
 25. Sono capace di dire che non ho compreso un'idea  
